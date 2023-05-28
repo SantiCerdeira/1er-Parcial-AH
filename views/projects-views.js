@@ -4,17 +4,6 @@ function createPage(title, content) {
     return html
 }
 
-// function createProjectsPage(projects) {
-//     let html = '<h1 class="mt-5">Lista de proyectos</h1>'
-//     html += '<ul>'
-//     for (let i = 0; i < projects.length; i++) {
-//         html += `<li>${projects[i].name}</li>`
-//     }
-//     html += '</ul>'
-
-//     return createPage('Proyectos ' + projects[1].section, html)
-// }
-
 export {
     createPage
 }
